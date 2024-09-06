@@ -3116,7 +3116,7 @@ dependencies = [
  "tokio",
  "tray-icon",
  "url",
- "urlpattern",
+ "urlpattern 0.2.0",
  "webkit2gtk",
  "webview2-com",
  "window-vibrancy",
@@ -3260,7 +3260,7 @@ dependencies = [
  "thiserror",
  "toml 0.8.2",
  "url",
- "urlpattern",
+ "urlpattern 0.3.0",
  "walkdir",
 ]
 
@@ -3660,6 +3660,18 @@ dependencies = [
  "idna",
  "percent-encoding",
  "serde",
+]
+
+[[package]]
+name = "urlpattern"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "70acd30e3aa1450bc2eece896ce2ad0d178e9c079493819301573dae3c37ba6d"
+dependencies = [
+ "regex",
+ "serde",
+ "unic-ucd-ident",
+ "url",
 ]
 
 [[package]]
